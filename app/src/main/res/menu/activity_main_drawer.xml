@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/juegos"
+            android:icon="@mipmap/soccerball"
+            android:title="Juegos" />
+        <item
+            android:id="@+id/jugadores"
+            android:icon="@mipmap/soccerplayer"
+            android:title="Jugadores" />
+        <item
+            android:id="@+id/estadisticas"
+            android:icon="@mipmap/ranking"
+            android:title="Estadisticas" />
+    </group>
+
+</menu>
